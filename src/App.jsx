@@ -24,6 +24,7 @@ function App() {
     navigator.geolocation.getCurrentPosition(success);
   }, []);
 
+  console.log(weather)
   return (
     <main className="font-['Lato'] bg-gradient-radial from-D5F3FF via-51B4E8 to-transparent to-center h-screen">
       {weather === null ? (
