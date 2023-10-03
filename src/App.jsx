@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import WeatherContainer from "./components/WeatherContainer";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import axios from "axios";
 
 function App() {
@@ -52,7 +51,6 @@ function App() {
           <div className="flex justify-center items-center">
             <WeatherContainer weather={weather} />
           </div>
-          <Footer />
         </div>
       )}
     </main>
